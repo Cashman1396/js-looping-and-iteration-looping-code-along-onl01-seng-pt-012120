@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function writeCards( namesArray, event ) {
   let thankYouCards = []
   for ( let i = 0; i < namesArray.length; i++ ) {
@@ -12,4 +13,13 @@ function countDown( startingNumber ) {
     startingNumber -= 1;
   }
   console.log( startingNumber );
+=======
+// Code your solutions in this file
+const cards = (["Ada", "Brendan", "Ali"]. "birthday");
+
+function writeCards(cards) {
+  for (let i = 0; i < cards.length; i++) {
+    console.log('Thank you, ${cards[i]} for the wonderful birthday gift');
+  }
+>>>>>>> 9ee0dab61f6d85cf8a2a8ad4790fc3eee75ae69c
 }
